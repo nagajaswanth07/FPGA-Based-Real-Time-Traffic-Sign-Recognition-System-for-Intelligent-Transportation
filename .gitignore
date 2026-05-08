@@ -1,0 +1,26 @@
+# Vivado Project Files (Too large to commit, use build_hardware.tcl instead)
+PYNQ_TSR_Project/
+.Xil/
+*.jou
+*.log
+*.pb
+*.wdb
+*.str
+
+# Python/Jupyter Temp Files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Heavy Models / Binaries
+best_gtsrb_model.keras
+*.whl
+
+# Extracted word/ppt files and generated logs
+docx_extract/
+ppt_extract/
+docx_content.txt
+steps
+
+# Any .bit or .hwh files inside the project path if they exist directly
+# (You usually only commit final releases of these, not every build)
