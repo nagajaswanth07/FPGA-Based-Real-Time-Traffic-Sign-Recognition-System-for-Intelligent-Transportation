@@ -1,3 +1,4 @@
+<img width="1080" height="656" alt="image3" src="https://github.com/user-attachments/assets/ecd482bb-6160-460d-92a0-21b602a1c1ac" />
 # Real-Time Traffic Sign Recognition on FPGA Using CNN (PYNQ-Z2)
 
 ![PYNQ-Z2 Setup](report_images/pynq_z2_board.jpg) <!-- Assuming an image exists, placeholder -->
