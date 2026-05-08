@@ -1,7 +1,16 @@
-<img width="1080" height="656" alt="image3" src="https://github.com/user-attachments/assets/ecd482bb-6160-460d-92a0-21b602a1c1ac" />
 # Real-Time Traffic Sign Recognition on FPGA Using CNN (PYNQ-Z2)
 
-![PYNQ-Z2 Setup](report_images/pynq_z2_board.jpg) <!-- Assuming an image exists, placeholder -->
+
+## Project Showcase
+
+### Inference Results
+![Test Inference 1](test_images/Screenshot%202026-04-29%20163032.png)
+![Test Inference 2](test_images/Screenshot%202026-04-29%20163510.png)
+
+### Hardware Setup
+![PYNQ-Z2 Hardware](report_images/image13.jpg)
+
+
 
 ## Overview
 This repository contains the hardware and software implementation for a Real-Time Traffic Sign Recognition (TSR) system deployed on the **Xilinx PYNQ-Z2** FPGA. Using a hardware-software co-design approach, a quantized Convolutional Neural Network (CNN) is accelerated at the edge to recognize 43 distinct traffic sign classes from the GTSRB dataset.
