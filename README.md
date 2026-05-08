@@ -4,8 +4,11 @@
 ## Project Showcase
 
 ### Inference Results
-![Test Inference 1](test_images/Screenshot%202026-04-29%20163032.png)
-![Test Inference 2](test_images/Screenshot%202026-04-29%20163510.png)
+<img width="800" height="656" alt="image15" src="https://github.com/user-attachments/assets/0b54bef1-c579-4490-a208-a363474b73d2" />
+
+<img width="400" height="407" alt="image17" src="https://github.com/user-attachments/assets/749cc048-24b9-4893-aa73-c7e9e2ab8349" />
+<img width="400" height="395" alt="image16" src="https://github.com/user-attachments/assets/d96498e9-e1fc-4718-8a63-e42d9ce7563a" />
+
 
 ### Hardware Setup
 ![PYNQ-Z2 Hardware](report_images/image13.jpg)
@@ -20,6 +23,8 @@ The system utilizes the Zynq-7000 Processing System (PS) coupled with AXI Video 
 ## System Architecture
 *   **Hardware (Programmable Logic):** The PL contains the AXI VDMA and video processing IP blocks, alongside a USB controller interfacing block to allow direct camera connection without external adapters.
 *   **Software (Processing System):** The PS runs the PYNQ Linux OS and executes Python scripts. It utilizes the TensorFlow Lite Interpreter to run the quantized `INT8` model (`gtsrb_quantized.tflite`) directly, alongside OpenCV for image preprocessing.
+<img width="1536" height="1024" alt="image10" src="https://github.com/user-attachments/assets/1250e372-b751-4f96-ad89-52f6ebb11005" />
+<img width="1693" height="929" alt="image8" src="https://github.com/user-attachments/assets/be7011cd-f296-4ade-8976-c522571faba5" />
 
 ## Results & Performance
 The implementation was rigorously tested on the PYNQ-Z2 hardware. Moving from a standard software environment to the optimized PYNQ-Z2 edge device yielded excellent real-time performance. 
